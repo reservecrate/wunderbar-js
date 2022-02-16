@@ -1,0 +1,17 @@
+{
+  "name": "npm-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wunderbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.5.5"
+  }
+}
