@@ -1,15 +1,18 @@
 {
   "name": "npm-packages",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "main": "wunderbar.js",
+  "main": "src/wunderbar.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "jest": "^27.5.1",
     "ts-node": "^10.5.0",
     "tsc": "^2.0.4",
     "typescript": "^4.5.5"
